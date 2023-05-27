@@ -17,15 +17,15 @@ int main()
 
         if (guess < num)
         {
-            std::cout << "Higher!" << "\n";
+            std::cout << "Higher!" << '\n';
         }
         else if (guess > num)
         {
-            std::cout << "Lower!" << "\n";
+            std::cout << "Lower!" << '\n';
         }
         else
         {
-            std::cout << "Correct!" << "\n";
+            std::cout << "Correct!" << '\n';
         }
     }
 
