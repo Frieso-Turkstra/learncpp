@@ -17,9 +17,7 @@ int main()
 {
     int x{ getInteger() };
 
-    bool even = isEven(x);
-
-    if (even)
+    if ( isEven(x) )
         std::cout << x << " is even\n";
     else
         std::cout << x << " is odd\n";
